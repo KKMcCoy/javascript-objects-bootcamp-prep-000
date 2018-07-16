@@ -1,4 +1,5 @@
 var playlist = { beatles: "yellow submarine" };
 
 function updatePlaylist(playlist, artist, title) {
-  playlist.assign({},playlist, {artist:[])
+  return playlist.assign({},playlist, {artist:['title']});
+}
